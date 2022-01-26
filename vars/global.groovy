@@ -16,6 +16,9 @@ def call(String param1, String param2){
 
                             def funciones   = new Funciones()
 
+                            stage('Declara'){
+                                println 'Estoy en la rama Test'          
+                            }
                             stage('Inicio'){
                                 println 'Inicio'
                                 println 'String 1: ' + param1
